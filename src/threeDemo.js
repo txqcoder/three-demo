@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import  * as THREE from 'three'
-// 引入控件，实现旋转，缩放等
+// 引入控件，实现旋转，缩放等,但不能垂直方向的360度旋转
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 import Stats from 'stats.js';
 // 引入外部obj格式的模型加载器
